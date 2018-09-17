@@ -1,0 +1,62 @@
+This file has the relevant IDs of the GUIs so you don't have to look for it in the XML file.
+Later versions will have descriptions and pseudocode on button clicks and initialization of the screen.
+
+activity_modify_cardio_exercise.xml - Modify Cardio Exercise Screen
+	@+id/name_field
+	@+id/time_field
+	@+id/intensity_field
+	@+id/denomination_field
+	@+id/bt_add_exercise
+	@+id/bt_go_back
+
+activity_modify_weightlifting_exercise.xml
+	@+id/name_field
+	@+id/sets_field
+	@+id/reps_field
+	@+id/time_per_set_field
+		- Needs to be a time field initialized to 2 minutes?
+	@+id/intensity_field
+	@+id/denomination_field
+		- Could be set to only lbs and kg instead of a text field
+	@+id/bt_new_exercise
+	@+id/bt_go_back
+
+activity_modify_workout.xml
+	@+id/name_field
+	@+id/exercise_view
+	@+id/workout_view
+	@+id/bt_add_to_workout
+	@+id/bt_remove_from_workout
+	@+id/minutes_text
+	@+id/bt_new_workout
+	@+id/bt_go_back
+
+activity_modify_routine.xml
+	@+id/name_field
+	@+id/workout_view
+	@+id/routine_view
+	@+id/bt_add_to_routine
+	@+id/bt_remove_from_routine
+	@+id/bt_add_routine
+	@+id/bt_go_back
+
+activity_routine_selector
+	@+id/name_text
+	@+id/routine_selection
+	@+id/bt_set_current_routine
+	@+id/bt_edit_routine
+	@+id/bt_new_routine
+	@+id/bt_go_back
+
+activity_workout_selector
+	@+id/workout_view
+	@+id/bt_edit_workout
+	@+id/bt_new_workout
+	@+id/bt_go_back
+
+activity_exercise_selector
+	@+id/exercise_view
+	@+id/bt_edit_exercise
+	@+id/bt_new_cardio_exercise
+	@+id/bt_new_weightlifting_exercise
+	@+id/bt_go_back
